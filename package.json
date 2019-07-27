@@ -1,0 +1,19 @@
+{
+  "name": "chuck-norris",
+  "version": "0.0.1",
+  "description": "A Chuck Norris joke generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebwenz/chuckNorris.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebwenz/chuckNorris/issues"
+  },
+  "homepage": "https://github.com/sebwenz/chuckNorris#readme"
+}
