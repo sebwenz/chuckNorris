@@ -1,0 +1,23 @@
+<script type="text/javascript">
+
+
+    async function getJoke() {
+        let jokeDate = await fetch('https://api.chucknorris.io/jokes/random')
+        .then(function(response) {
+            return response.json();
+        });
+    
+        document.getElementById('joke').innerHTML =  jokeDate.value; 
+    
+    }
+</script>
+
+<p id="joke">
+    Hier könnte Ihr Witz stehen
+</p>
+
+<button onclick="getJoke()">klick mich! </button>
+
+
+
+
